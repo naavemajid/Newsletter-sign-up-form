@@ -175,5 +175,20 @@ body{
     .form input{
         max-width: 250px;
     }
+
+    .success{
+    max-width: 300px;
+    background-color: hsl(0, 0%, 100%);
+    padding: 10px;
+    border-radius: 0;
+    }
+
+    .success button{
+        margin-top: 200px;
+        margin-bottom: 20px;
+    }
+    .success img{
+       margin-top: 60px;
+    }
     
 }
