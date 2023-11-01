@@ -67,20 +67,20 @@ body{
     outline: none;
     border: 1px solid  hsl(231, 7%, 60%);
     font-family: inherit;
+    cursor: pointer;
 }
 
 .error{
-    display: none;
-    font-size: 12px;
-    margin-left: 100px;
+    display: inline-block;
+    font-size: 9px;
+    margin-left: 130px;
     color:  hsl(4, 100%, 67%);
 }
 
-/* #email{
+.email{
     background-color:  hsl(6, 68%, 88%);
     color:  hsl(4, 100%, 67%);
-    border: 1px solid  hsl(4, 100%, 67%);
-} */
+}
 
 .updated button{
     margin-top: 15px;
