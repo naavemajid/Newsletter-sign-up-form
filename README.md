@@ -14,4 +14,4 @@ This a project l took from Frontend mentor. A newslettter sign-up form using HTM
 
 
 
-Click <a href = " https://naavemajid.github.io/Newsletter-sign-up-form/"> HERE </a> to visit the site.
+Click <a href="https://naavemajid.github.io/Newsletter-sign-up-form/">HERE</a> to visit the site.
