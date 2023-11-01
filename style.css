@@ -1,0 +1,179 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color:hsl(235, 18%, 26%);
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 100vw;
+    min-height: 100vh;
+}
+
+.container{
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    background-color: hsl(0, 0%, 100%);
+    max-width: 700px;
+    padding: 15px;
+    /* display: none; */
+}
+
+.list {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 5px;
+}
+
+.updated{
+    /* max-width: 700px; */
+    width: 60%;
+    margin-top: 10px;
+    padding: 20px;
+}
+
+.updated h1{
+    margin-bottom: 10px;
+}
+
+.img-container{
+    width: 40%;
+}
+
+.img-container img{
+    width: 100%;
+}
+
+.form{
+    margin-top: 20px;
+}
+
+.form label,input{
+    margin-top: 5px;
+    font-size: 12px;
+}
+
+.form input{
+    width: 300px;
+    padding: 10px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid  hsl(231, 7%, 60%);
+    font-family: inherit;
+}
+
+.error{
+    display: none;
+    font-size: 12px;
+    margin-left: 100px;
+    color:  hsl(4, 100%, 67%);
+}
+
+/* #email{
+    background-color:  hsl(6, 68%, 88%);
+    color:  hsl(4, 100%, 67%);
+    border: 1px solid  hsl(4, 100%, 67%);
+} */
+
+.updated button{
+    margin-top: 15px;
+    width: 300px;
+    border: none;
+    outline: none;
+    padding: 10px;
+    background-color:  hsl(234, 29%, 20%);
+    color: hsl(0, 0%, 100%);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+.updated button:active{
+    background: linear-gradient(to right, hsl(351, 40%, 53%),hsl(4, 100%, 67%)); 
+    cursor: pointer;
+    box-shadow: 0 4px 0px 0  hsl(351, 40%, 53%), 0 0 5px 0 hsl(4, 100%, 67%);
+ }
+
+
+
+ /* success state */
+
+.success{
+    display: none;
+    max-width: 400px;
+    background-color: hsl(0, 0%, 100%);
+    padding: 50px;
+    border-radius: 10px;
+}
+
+.success img{
+    width: 50px;
+}
+
+.success h1,p{
+    margin-top: 15px;
+}
+
+.success button{
+    margin-top: 15px;
+    width: 100%;
+    padding: 10px;
+    background-color:  hsl(234, 29%, 20%);
+    color: hsl(0, 0%, 100%);
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+
+}
+
+
+.success button:active{
+   background: linear-gradient(to right, hsl(351, 40%, 53%),hsl(4, 100%, 67%)); 
+   cursor: pointer;
+   box-shadow: 0 4px 0px 0  hsl(351, 40%, 53%), 0 0 5px 0 hsl(4, 100%, 67%);
+}
+
+
+/* media queries */
+
+@media(max-width: 670px){
+    .container{
+        font-size: 12px;
+        max-width: 350px;
+        display: flex;
+        flex-direction: column-reverse;
+        background-color: hsl(0, 0%, 100%);
+        padding: 0;
+        border-radius: 0;
+
+    }
+    .updated{
+       
+        margin-left: 50px;
+        margin-bottom: 20px;
+        padding: 0;
+    }
+
+    .img-container img{
+        content: url('assets/images/illustration-sign-up-mobile.svg');
+        width: 350px;
+      
+    }
+
+    .updated button{
+        max-width: 250px;
+        font-size: 12px;
+    }
+    .form input{
+        max-width: 250px;
+    }
+    
+}
